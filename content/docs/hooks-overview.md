@@ -162,7 +162,7 @@ Hooks permitem a você organizar efeitos colaterais *(side effects)* em um compo
 
 ## ✌️ Regras dos Hooks {#rules-of-hooks}
 
-Hooks são funções JavaScript, mas eles impões duas regras adicionais:
+Hooks são funções JavaScript, mas eles impõem duas regras adicionais:
 
 * Apenas chame Hooks **no nível mais alto**. Não chame Hooks dentro de loops, condições ou funções aninhadas.
 * Apenas chame Hooks **de componentes funcionais**. Não chame Hooks de funções JavaScript comuns. (Há apenas um outro lugar válido para se chamar Hooks -- dentro dos seus próprios Hooks customizados. Iremos aprender sobre eles em breve.)
